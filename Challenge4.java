@@ -29,7 +29,7 @@ public class Challenge4 {
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
         Challenge4 obj = new Challenge4();
-        int mark = scan.nextInt();
+       
         String Result = obj.PassOrfail(mark);
         System.out.println(Result);
     }
