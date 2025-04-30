@@ -1,20 +1,20 @@
-public class Q2 {
-    public static void main(String[] args) {
 
- for(int j =0;j<=3;j++){
-    /*
-     * iteration1
-     * j=0; i=0 i<=0
-     * *
-     *  iteration2
-     * j=1,i=0,i<=1
-     * * j=1,i=1
-     * **
-     */
-        for(int i=0; i<=j;i++){
-            System.out.print("*");
+import java.util.Scanner;
+
+public class Q2 {// greatest of n umbers
+    public static void main(String[] args) {
+        Scanner Scan = new Scanner(System.in);
+        int b = 0;
+        for (int i = 0; i < 5; i++) {
+            System.out.print("enter number:");
+            int a = Scan.nextInt();  
+            if(a>b){
+                b=a;
+            }else{
+                b=b;
+            }
         }
-        System.out.println();
+    System.out.println(b);
     }
-}
-}
+    }
+
