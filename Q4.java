@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Q4 {//number of even digitse4
+public class Q4 {//number of even digits
      public static void main(String[] args) {
         int count = 0;
         int rem =0;
@@ -9,7 +9,7 @@ public class Q4 {//number of even digitse4
         System.out.print("enter number:");
             int a = scan.nextInt();
       
-        for(int i=1;i<=5;i++){
+        for(int i=1;i<5;i++){
             rem =a%10;
             if(rem%2==0){
                count++;

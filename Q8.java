@@ -5,6 +5,7 @@ public class Q8 {
         Scanner scan = new Scanner(System.in);
         int num = scan.nextInt();
         Boolean res =false;
+        
         for(int i =2;i<num ;i++){
          if(num%i==0){
             res=true;
