@@ -1,6 +1,7 @@
 import java.util.Scanner;
 
 public class Q8 {
+    //sum of the digits  in a number
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
         System.out.println("Enter the number:");
