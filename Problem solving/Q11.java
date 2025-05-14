@@ -3,7 +3,7 @@ import java.util.Scanner;
 
 public class Q11 {
     /*
-     * fibonacci series
+     * fibonacci series in java
      */
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
